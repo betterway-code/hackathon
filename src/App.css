@@ -1,0 +1,109 @@
+*{
+    padding :0;
+    margin : 0;
+    box-sizing :border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav{
+    background-color: rgb(35, 40,45);
+    padding :10px;
+    text-align: center;
+
+}
+.greencolor{
+    color:rgb(60,220,135);
+
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+main{
+    display :flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+} 
+
+.white{
+    font-size: 20px;
+    color : blueviolet;
+    }
+
+    .forDoctors{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buttons{
+        padding: 30px 20px;
+        border-radius: 10px;
+        color:white;
+    }
+
+    .forDoctors{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buttons{
+        padding: 30px 20px;
+        border-radius: 10px;
+        color:whitesmoke;
+        background-color: rgb(35, 40,45);
+        margin : 16px 0;
+        font-size:21px;
+        font-weight : 500;
+    }
+
+    .forslots{
+        width:100%;
+        padding:10px 0;
+}
+
+.centerMe{
+    text-align: center;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 200px 500px;
+    grid-gap:10px;
+}
+
+.timebuttons{
+    background-color: rgb(210,215,220);
+    border-radius: 5px;
+    font-size: 15px;
+    padding:10px;
+    margin:10px;
+}
+
+.timing{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.timingform{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.timingform h2{
+    font-size: 22px;
+}
+
+.timingform button{
+    padding :12px;
+    background-color: rgb(145, 157,165);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
