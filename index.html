@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Betterway Hackathon</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <h1>Hello World!</h1>
+  <body>
+    <header>
+      <h1>better<span>way</span></h1>
+    </header>
+    <div class="app">
+        <h1>Clinic <span>Booking App</span></h1>
+        <div id="booking-form">
+          <label for="slot">Select Time Slot</label>
+          <select id="slot">
+            <!-- Slots  -->
+          </select>
+    
+          <label for="bookingType">Select Booking Type</label>
+          <select id="bookingType">
+            <option value="doctor1">Doctor 1</option>
+            <option value="doctor2">Doctor 2</option>
+            <option value="clinic">Clinic</option>
+          </select>
+    
+          <button id="bookBtn">Book Slot</button>
+        </div>
+    
+        <div id="booking-status">
+          <h2>Booking Status</h2>
+          <ul id="bookings-list">
+          </ul>
+
+          <button id="clearBtn">Clear Booking</button>
+        </div>
+        
+      </div>
+
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

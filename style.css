@@ -1,11 +1,114 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    text-align: center;
-    padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #fdfcfc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    color: #007BFF;
+header {
+  background-color: #29343b;
+  padding: 1px;
+  color: white;
+  margin-bottom: 40px;
 }
+
+header span {
+  color: #36c881;
+}
+
+header h1 {
+  color: #f6fbf9;
+}
+
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #29343b;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app span{
+  color: #36c881;
+  text-align: center;
+}
+.app h1{
+  color: #fdfffe;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#booking-form {
+  margin-bottom: 20px;
+}
+
+label, select, button {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#slot{
+  margin-bottom: 30px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+label{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#bookingType{
+  margin-bottom: 30px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#clearBtn{
+  background-color: #ef300a;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+button:hover {
+  background-color: #45a049;
+}
+
+#booking-status {
+  background-color: #0b0a0a;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bookings-list {
+  list-style-type: none;
+}
+
+#bookings-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+
