@@ -13,7 +13,7 @@ const bookings = {};
 document.addEventListener("DOMContentLoaded", () => {
     populateSlots();
     document.getElementById("bookBtn").addEventListener("click", bookSlot);
-    document.getElementById("clearBtn").addEventListener("click", clearBookings); // Add event listener for Clear Booking button
+    document.getElementById("clearBtn").addEventListener("click", clearBookings); 
 });
 
 function populateSlots() {
